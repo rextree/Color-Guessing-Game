@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	color: #fff;
+}
+
+/********TITLE********/
+.title{
+	padding: 20px 0;
+	background-color: #3498db;
+	text-align: center;
+}
+
+.title h1{
+	font-weight: 300;
+	font-size: 250%;
+	margin-bottom: 10px;
+}
+
+.controller{
+	text-align: center;
+	background-color: #217dbb;
+	font-size: 120%;
+
+}
+
+#message{
+	margin: 0 50px;
+}
+
+.color{
+	max-width: 768px;
+	margin: 10px auto;
+}
+
+.colorPanel{
+	border-radius: 20px;
+	float: left;
+	width: 30%;
+	margin: 1.6%;
+	padding-bottom: 30%;
+}
+
+#colorDisplay{
+	text-transform: uppercase;
+}
+
+button{
+	text-transform: uppercase;
+	color: #fff;
+	box-shadow: none;
+	font-size: 90%;
+	border: none;
+	background-color: #217dbb;
+	font-family: inherit;
+	padding: 3px 5px;
+	height: 100%;
+	-webkit-transition: background-color 1s;
+	transition: background-color 1s;
+	-webkit-transition: color 1s;
+	transition: color 1s;
+}
+
+button:hover{
+	background-color: #fff;
+	color: #217dbb
+}
+
+.selected{
+	background: #fff;
+	color: #217dbb;
+}
